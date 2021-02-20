@@ -1,0 +1,410 @@
+body{
+    background-color: #f8f8f8;
+}
+hr{
+    background-color: #25567B;
+    height: 1px;
+}
+ul{
+    list-style-type: none;
+}
+.h2Товары{
+  color: black;
+  font-size: 18px;
+   font-weight: 400; 
+    background-color: #eaeaea;
+    padding-left: 50px;
+}
+.крОпис{
+    color: #707070;
+    font-size: 17px;
+    font-style: italic;
+    line-height: 16px;
+}
+.крОпис:first-letter{
+    font-size: 30px;
+    color: orangered;
+}
+.подрОпис
+{
+    color: #484343;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+.подрОпис:first-letter{
+    font-size: 30px;
+    color: orangered;
+}
+.menu div a
+{
+    text-decoration: none;
+  color: #D4CED1;
+     font-style: oblique;
+    font-size: 21px; 
+    font-weight: 600;
+}
+.menu div a:hover
+{
+    color: #F13C73;   
+}
+.menu div a:active
+{
+    color: #F13C73; 
+}
+.харки li {
+     background: url(catalog/img/galpng) no-repeat 1px;
+    padding-left: 25px;
+    font-style: normal;
+    font-size: 17px;
+    color: black;
+}
+.inputsend input{
+    border-color: #f8f8f8;
+    border-bottom-color: #f8f8f8;
+    border-width: thin;
+    font-size: 17px;
+    font-style: normal;
+    color: blue;
+    border-radius: 7px;
+    text-transform: capitalize;
+}
+.inputsend + p input{
+    border-color: #f8f8f8;
+    border-bottom-color: #f8f8f8;
+    border-width: thin;
+    font-size: 17px;
+    font-style: normal;
+    color: black;
+    border-radius: 7px;
+}
+.h3contactsCatalogRegister{
+   color: #25567B;
+    font-size: 22px;
+}
+.h1glavn{
+   color:#25567B;
+     font-style: italic;
+    font-size: 30px; 
+    text-align: center;
+}
+.logo{
+    background: #4e595a;
+    box-shadow: 0 0 5px;
+    border-radius: 5px
+}
+#logos {
+    text-align: center;
+    position: relative;
+    top: 2px;
+    align-content: center;
+}
+.menuleft{
+    text-align: left;
+    word-spacing: 90px;
+    position: absolute;
+    top: 28px;
+    left: 70px;
+}
+.menuright{
+    word-spacing: 90px;
+    position: absolute;
+    top: 28px;
+    right: 70px;
+}
+.menu div a:hover,active
+{
+    color: #F13C73;   
+}
+.nameh2product{
+    color: #25567B;
+}
+.priceonproduct{
+    margin-left: 85px;
+    color: #25567B;
+    font-size: 20px;
+    font-style: oblique;
+}
+.signup input{
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    background: #ebe8e8;
+    height: 25px;
+    color: #25567B;
+    font-size: 15px;
+    text-align: center;
+    box-shadow: 0 0 1px;
+}
+.formsignup{
+    position: relative;
+    top:15px;
+    text-align: center;
+}
+.buttonsignup{ 
+    position: relative;
+    top:20px;
+    text-align: center;
+     word-spacing: 15px;
+}
+.buttonsignup input{
+    height: 30px;
+}
+.buttonsignup input:hover,active{
+    background: lightgray;
+    box-shadow: 0 0 5px;
+}
+.formsignup a{
+     text-decoration: none;
+  color: #25567B;
+     font-style: oblique;
+    font-size: 17px; 
+    font-weight: 600;
+}
+.formsignup a:hover,active
+{
+   color: #F13C73;
+}
+.signup{
+    display: block;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #f9f9f9;
+    position: relative;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    height: 480px;
+    width: 500px;
+    border: 1px solid darkgray;
+    box-shadow: 0 0 2px;
+}
+#registration{
+    background-color: #dddee0;
+}
+#checkboxregistration input{
+    box-shadow: none;
+}
+.formlogin input {
+    border: 1px solid darkgray;
+    border-radius: 3px;
+    background: #ebe8e8;
+    height: 20px;
+    color: #25567B;
+    font-size: 15px;
+    text-align: center;
+    box-shadow: 0 0 3px;
+    height: 30px;
+    width: 200px;
+    position: relative;
+    top: -10px;
+}
+.formlogin{
+    position: relative;
+    top:15px;
+    text-align: center;
+    position: relative;
+    text-align: center;
+}
+.buttonlogin input{
+    position: relative;
+    top: 5px;
+    background: #fed06c;
+    color: #895848; 
+    font-size: 17px;
+    font-weight: 600;
+    height:40px;
+    width: 100px;
+    border-radius: 100px;
+    box-shadow: 0 0 3px;
+    border: 1px solid lightgray;
+    } 
+.buttonlogin input:hover,active{
+    background: #FFD940;
+    box-shadow: 0 0 10px;
+}
+.login{
+    display: block;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #f9f9f9;
+    position: relative;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    height: 300px;
+    width: 400px;
+    border: 1px solid darkgray;
+    box-shadow: 0 0 1px;
+}
+#login{
+    background-color: #dddee0;
+}
+#checkboxlogin input p{
+    box-shadow: none;
+}
+.buttonptoductprice{
+    background: #fed06c;
+    color: #895848; 
+    font-size: 17px;
+    font-weight: 600;
+    height: 50px;
+    width: 250px;
+    border-radius: 100px;
+    box-shadow: 0 0 3px;
+    border: 1px solid lightgray;
+    margin-left: 25px;
+    } 
+.buttonptoductprice:hover,active{
+    background: #FFD940;
+    box-shadow: 0 0 10px;
+}
+.харкиблок{
+    background: none;
+     position: absolute;
+    left: 450px;
+    top: 190px;
+    width: 390px;
+}
+.footer{
+    margin-top: 540px;
+    height: 75px;
+    background: lightgray;
+    color:dimgray;
+     font-style: oblique;
+    font-size: 18px; 
+}
+.textfooter{
+    color: black;
+    text-align: right;
+    padding-right: 30px;
+    padding-top: 8px;
+}
+.харкиблок h2{
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 50px;
+    background:none;
+    color: darkcyan;
+    font-size: 22px;
+    font-style: oblique;
+    font-weight: 600;
+    border: 1px solid #25567B;
+    border-radius: 20px;
+    background-clip:padding-box;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 0 0 4px; 
+    border-color:darkcyan; 
+    color:darkcyan;
+
+}
+.vrхарки{
+    border-left: 4px solid darkcyan;
+    height: 270px;
+}
+.харкиблок li p{
+    font-style: italic;
+    font-size: 18px;
+}
+.container{
+    position: relative;
+    top:10px;
+    border: 1px solid lightgray;
+    height: 900px;
+    width: 900px;
+    margin:0 auto;
+    box-shadow: 0 0 4px lightgray;
+    background: white;
+    border-radius: 6px;
+}
+.textGlavn{
+   color: black;
+    font-size: 16px; 
+    font-style: normal;
+    padding-left: 15px;
+    font-size: 17px;
+}
+.containerCatalog{
+  position: relative;
+    top:10px;
+    border: 1px solid lightgray;
+    height: 900px;
+    width: 900px;
+    margin: 0 auto;
+    box-shadow: 0 0 4px lightgray;
+    background: white;
+    border-radius: 6px;  
+}
+.containerCatalog h3{
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+}
+.productsCatalog{
+    position: absolute;
+    margin-left: 60px;
+    outline: 1px solid black
+    height: 600px;
+    width: 800px;
+}
+.productsCatalog span{
+    float:left;
+    position: relative;
+    height: 360px;
+    width: 230px;
+    outline: 1px solid black;
+    text-align: center;
+    margin: 15px;
+    background: #f8f8f8;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px lightgray;
+    background: #f8f8f8;
+    border-radius: 5px;
+}
+.imgcatalog{
+    position: relative;
+    padding: 10% 10% 0% 10%;
+}
+.textblockcatalog{
+    position: absolute;
+    line-height: 20px;
+   margin-bottom: 50px;
+}
+.textblockcatalog input{
+    background: #fed06c;
+    color: #895848; 
+    font-size: 17px;
+    font-weight: 600;
+    height: 40px;
+    width: 100px;
+    border-radius: 100px;
+    box-shadow: 0 0 3px;
+    border: 1px solid lightgray;
+}
+.textblockcatalog input:hover,active{
+    background: #FFD940;
+    box-shadow: 0 0 10px;
+}
+.textblockcatalog a{
+    color:#25567B;
+    text-decoration:none;
+    font-size: 17px;
+}
+.textblockcatalog a:hover,active{
+    color:#F13C73;
+}
+.priceblockcatalog{
+    color: black;
+    font-size: 17px;
+    margin-top: 12px;
+    font-weight: 500;
+}
+.productsCatalog span:hover{
+    box-shadow: 0 0 10px lightgray;
+}
